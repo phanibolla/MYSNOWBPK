@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="test Table" max_length="40" name="x_9351_test_table" type="collection"/>
+    <element label="test Table" max_length="40" name="x_9351_test_table" type="collection">
+        <element label="Test field" max_length="40" name="test_field" type="string"/>
+    </element>
 </database>
