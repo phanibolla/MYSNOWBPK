@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="test Table" max_length="40" name="x_9351_test_table" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="choice field" max_length="40" name="choice_field" type="string">
+            <choice/>
+        </element>
         <element label="Test field" max_length="40" name="test_field" type="string"/>
     </element>
 </database>
